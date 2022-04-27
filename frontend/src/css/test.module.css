@@ -1,0 +1,80 @@
+.masterContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.topContainer {
+  padding: 10px;
+  width: fit-content;
+}
+
+.Container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.modalContainer {
+  display: flex;
+}
+
+.sideContainer {
+  font-family: monospace;
+  color: white;
+  margin: 10px;
+  width: 15rem;
+  text-align: center;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.containerHolderModal {
+  background-color: rgba(1, 29, 124, 0.842);
+  height: auto;
+  flex-grow: 1;
+  display: block;
+  padding: 5%;
+}
+
+.customiseInputBox {
+  border: 0;
+  border-radius: 5px;
+  width: 80%;
+  color: black;
+  outline: 0;
+  padding: 2px 5px;
+}
+
+.shiftRight {
+  text-align: right;
+}
+
+.hideMe {
+  display: none;
+}
+
+.inputinfo {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.modalDesign {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.labelInfo {
+  /* color: white; */
+  background-color: black;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.submitBtn {
+  background-color: rgb(255, 94, 0);
+  padding: 10px;
+}

@@ -1,0 +1,18 @@
+.labelEle {
+  width: fit-content;
+  height: fit-content;
+  padding: 5px 10px;
+  border-radius: 5px;
+  /* background-color: #000c64; */
+  background-color: #050a30;
+  color: white;
+  /* margin-top: 100px; */
+}
+
+.inp {
+  display: none;
+}
+
+.masterClass {
+  margin-top: 10px;
+}

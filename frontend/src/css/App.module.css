@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.svgContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  scroll-snap-align: start;
+}
+
+.container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+  min-width: 800px;
+}
+
+.horizontaLine {
+  border-color: black;
+  border-width: 1px;
+}
+
+.boxName {
+  padding: 5px;
+  font-family: "Lato";
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgb(0, 0, 131);
+}
+
+.homeTop1 {
+  flex-direction: column;
+  color: black;
+  position: relative;
+}
+
+.title {
+  font-family: "Playfair Display", Courier, monospace;
+  color: rgb(28, 106, 250);
+  font-size: 3rem;
+  font-weight: 600;
+  display: flex;
+  letter-spacing: 1.5px;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  position: absolute;
+  top: 12%;
+  margin-top: 5%;
+}
+
+.title p {
+  margin: 0;
+}
+
+.title p::before {
+  content: "choose your own style";
+  font-family: "Lato";
+  font-size: 1rem;
+  font-weight: 400;
+  position: absolute;
+  /* :0 ; */
+  bottom: -5px;
+  /* right: 0; */
+}
+
+.title p:first-child {
+  padding: 0 100px 0 0;
+}
+.lowerLine {
+  font-size: 1rem;
+  font-weight: 700;
+  position: absolute;
+  top: 52%;
+  left: 31%;
+  font-family: "Lato";
+}
+
+.homeTop2 {
+  background: linear-gradient(
+    180deg,
+    rgba(253, 253, 255, 1) 11%,
+    rgba(28, 106, 250, 1) 100% /* rgb(1, 31, 85) 100% */
+  );
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}

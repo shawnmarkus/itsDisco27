@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;600;800;900&display=swap");
+
+.mainOfProgress {
+  font-family: "Lato";
+  font-weight: 400;
+  /* font-stretch: expanded; */
+  background-color: #050a30;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
