@@ -24,7 +24,7 @@ section {
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
   height: 100vh;
-  min-width: 800px;
+  min-width:10px;
 }
 
 .horizontaLine {
